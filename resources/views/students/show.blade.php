@@ -24,7 +24,6 @@
         <p><strong>Name:</strong> {{ $student->Name }}</p>
         <p><strong>Email:</strong> {{ $student->Email }}</p>
         <p><strong>Roll Number:</strong> {{ $student->Roll_Number }}</p>
-        <br>
         <a href="{{ route('students.index') }}" class="btn btn-primary">Back to List</a>
     </div>
 </body>
